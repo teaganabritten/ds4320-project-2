@@ -2,6 +2,23 @@
 
 This project utilizes data sourced from various air quality control sites with the intent of analyzing air quality levels and making predictions as to what 
 
+### Name:
+Teagan Britten
+
+### NetID:
+uup3cy
+
+### DOI:
+
+### Press Release 
+[Access Here](pressrelease.md)
+
+### Pipeline:
+[Access Here](pipeline.ipynb)
+
+### License:
+[Access Here](LICENSE)
+
 ## Problem Definition
 
 ### Initial General Problem:
