@@ -17,7 +17,7 @@ uup3cy
 [Access Here](pipeline.ipynb)
 
 ### License:
-[Access Here](LICENSE)
+[MIT License](LICENSE)
 
 ## Problem Definition
 
