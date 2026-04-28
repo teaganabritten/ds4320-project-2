@@ -63,4 +63,20 @@ The project lives in the overarching domain of environmental science, specifical
 
 ## Data Creation 
 
-This data is collected from the DC Open Data Portal 
+The process of building this dataset involved selecting data from DC Open Data, collecting the data from the Realtime Air Quality Portal. I queried the data on their online portal to select one year of data from the date of collection. After querying this data, of about 240,000 rows, the data was loaded into MongoDB using Python (PyMongo package). Each document in the database represents the readings for one air quality measuring site on one day in the last 12 months. The dataset contains 2185 documents, with a unique ID, the date, and all readings nested within. 
+
+## Code 
+
+See Python Cell Below as to where the data was used to create a database
+
+## Bias Identification
+
+As the data is objectively measured at Air Monitoring sites across the District of Columbia, there is not much room for bias in terms of the classification of data. There is a potential for bias as to where these air monitoring sites are located, as they are not equally placed across the district. Anacostia in south east D.C. has less monitoring than some of the district's more central and busy neighborhoods, like Brentwood. This prevents a comprehensive understanding of the quality of air in certain areas and how they compare to the rest of the district. 
+
+## Bias Mitigation
+
+The main method of bias mitigation was to separate out each site to ensure that the sites could be fairly measured and to create graphic representations and modelling that fairly reflect the differences between different sites. 
+
+## Rationale 
+
+In this case, there were no close cases to look at as all of the data was included. Separating the data into documents by day and by site allowed for the data to be stored and accessed in a way that is much more efficient than storing with more or less documents while allowing for no site to go unnoticed. 
