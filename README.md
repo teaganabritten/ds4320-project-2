@@ -125,3 +125,7 @@ A document includes the information collected for one site on one day. Within ea
 ![image](air_quality_models.png)
 
 ![image](time_series_forecast.png)
+
+### Visualisation Rationale & Discussion
+
+I chose to use these plots of the models to represent their strengths, weaknesses, and heaviest impacts most clearly. The scatterplots in the above section demonstrate the performance of the random forest regressor, indicating in the first plot how the prediction for each day compared to the actual value and in the second plot what the error in prediction was for each day. This shows how the Random Forest regression performed relative to expectations, with a perfect prediction marked in the middle. The plots below describe the biggest features of the Random Forest Regression and Classification models, used to predict day of the year and the site of measurement respectively. These show which of the observed quantities are most informative of what separates either the day or the site from others. The measured quantities that influence decisions the most are notably different for predicting the day of the year and for predicting the measurement site. The final plot represents the results of the third model, plotting the time series data as it performed on the train and test partitions of the year of data collected. 
