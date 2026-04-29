@@ -6,4 +6,6 @@ Washington, DC is a large and bustling city and the activity of vehicles, homes,
 
 A new predictive model developed by a Charlottesville-based organisation will allow the DC government to utilise the existing data to make predictions on how certain days of the week, sporting events and others can affect the air quality and use that information to act for the safety of residents. This could include warning residents of upcoming air pollution exceeding a threshold on the night of the major independence day fireworks celebration, or looking at methods to mitigate effects of commute pollution.
 
+## Visualisation
 ![image](air_quality_models.png)
+Figure 1. plots demonstrating the predictions for days of the year and collection sites
