@@ -89,7 +89,7 @@ In this case, there were no close cases to look at as all of the data was includ
 
 A document includes the information collected for one site on one day. Within each document is a unique ID for each document, the Site ID (As identified by the original data source), the date and time of collection, and the readings for that date and sight all nested within that section. Each reading has the timestamp, what quantity has been collected, the value itself, the unit, and an object ID.
 
-## Data Dictionary
+## Data Dictionary & Summary
 
 | Measure | Value |
 |---|---:|
