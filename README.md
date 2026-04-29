@@ -71,6 +71,7 @@ The process of building this dataset involved selecting data from DC Open Data, 
 | --- | --- | --- |
 | data.ipynb | Contains code used to import data to the database | [Access Import Code Here](data.ipynb) |
 | pileline.ipynb | Contains the three models used to make predictions on the data | [Access Analysis Code Here](pipeline.ipynb) |
+| pipeline.md | Contains the analysis for the project, in a markdown file | [Access Analysis Here](pipeline.md) |
 
 
 ### Bias Identification
@@ -121,5 +122,5 @@ A document includes the information collected for one site on one day. Within ea
 
 ## Visualisations
 
-![Image](air_quality_models.jpg)
-![Image](time_series_forecast.jpg)
+![image](air_quality_models.jpg)
+![image](time_series_forecast.jpg)

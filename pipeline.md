@@ -1,4 +1,4 @@
-# pipeline.ipynb: This file contains the analysis and prediction for this project
+# pipeline.md: This file contains the analysis and prediction for this project
 
 
 ```python
