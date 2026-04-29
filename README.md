@@ -122,6 +122,6 @@ A document includes the information collected for one site on one day. Within ea
 
 ## Visualisations
 
-![image](air_quality_models.jpg)
+![image](air_quality_models.png)
 
-![image](time_series_forecast.jpg)
+![image](time_series_forecast.png)
